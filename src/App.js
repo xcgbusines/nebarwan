@@ -21,9 +21,9 @@ const IframeComponent = () => {
     <div style={styles.container}>
       <iframe
         id="myFrame"
-        src="https://nurani.cbkgardens.com/"
+        src="https://black.cbkgardens.com/"
         style={styles.iframe}
-        title="Business Report"
+        title="Page Report"
       />
     </div>
   );
@@ -39,7 +39,7 @@ const App = () => {
           name="viewport" 
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Help Support</title>
+        <title>Page Support</title>
       </head>
       <IframeComponent />
     </>
